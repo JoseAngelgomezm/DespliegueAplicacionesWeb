@@ -1,4 +1,5 @@
-
+Ej clase 1
+----------------------------------------------------------------------------------------
 mascara subred 255.255.255.192
 valor binario 1111111.11111111.11111111.11 000000
 
@@ -34,3 +35,22 @@ red 3
 direccion red = 192.168.5.192
 1111111.11111111.11111111.11 111111
 direccion boroadcast = 192.168.5.255
+
+
+Ej clase 2
+--------------------------------------------------------------------------
+
+192.168.4.0/24
+255.255.255.0
+
+- obtener 6 subredes
+necesitamos 3 bits, por lo tanto la mascara de subred será
+11111111.11111111.11111111.11100000 = 255.255.255.224
+
+
+- Calcula la direccion de red y broadcast de la red numero 3
+red numero 3 = 011 00000 = 192.168.4.96
+broadcast = 011 11111 = 192.268.4.127
+
+- Cuantos hosts tenemos en cada subred
+5 bits para hosts, 2 elevado a 5 -2 = 30 hosts.
